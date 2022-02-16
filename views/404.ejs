@@ -7,17 +7,8 @@
     <title>404 | <%= title %></title>
 </head>
 <body>
-    <nav>
-        <div class="site-title">
-            <a href="/"><h1>Blogs</h1></a>
-            <p>Blogs Site</p>
-            <ul>
-                <li><a href="/">Blogs</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/blogs/create">New Blog</a></li>
-            </ul>
-        </div>
-    </nav>
+
+    <%- include('./partials/nav.ejs') %>
 
     <div class="not-found content">
         <h2>Ooops, page not found :v</h2>
