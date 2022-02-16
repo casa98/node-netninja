@@ -19,11 +19,11 @@ app.get("/about", (req, res) => {
 })
 
 app.get("/blogs/create", (req, res) => {
-    res.render("create", {title: "Create new Blog"})
+    res.render("create", {title: "Create New Blog"})
 })
 
 app.use((req, res) => {
-    res.status(404).render("404", {title: "Not 404"})
+    res.status(404).render("404", {title: "404, Not Found"})
 })
 
 
